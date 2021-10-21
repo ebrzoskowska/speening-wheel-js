@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Speening wheel</title>
+  <meta name="description" content="Awesome speening wheel using HTML, CSS & JavaScript.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- styling & icons --> 
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0e9e91978d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <header>
+    <button class="nav__hamburger" id="nav__hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+    <img class="nav__logo" src="images/logo.png">
+    <nav>
+      <ul class="nav__links" id="nav__links">
+        <li><a href="https://www.allstarslots.com/about-us" target="_blank">about</a></li>
+        <li><a href="https://www.allstarslots.com/cashier" target="_blank">services</a></li>
+        <li><a href="https://www.allstarslots.com/games" target="_blank">games</a></li>
+      </ul>
+    </nav>
+    <button class="nav__spin-btn yellow-btn" id="pop-up-btn__open">Spin the wheel</button>
+  </header>
+
+  <div class="wheel__wrapper">
+    <img class="wheel__marker" src="images/marker.png" />
+    <img class="wheel__img" src="images/speen-wheel.png" />
+    <div class="wheel__score">-</div>
+  </div>
+
+  <div class="pop-up__container" id="pop-up__container">
+    <div class="pop-up__wrapper">
+      <h1>CONGRATULATIONS!</h1>
+      <h2>This is your lucky number!</h2>
+      <h3 class="pop-up__content">Please sign up to save your lucky number if you haven't done so already!</h3>
+      <p class="pop-up__content">Don’t lose it! Keep your LUCK streak and win the prize!</p>
+      <button class="yellow-btn">SIGN UP</button>
+      <button class="pop-up-btn__close" id="pop-up-btn__close">No thanks, I am good.</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© Copyright All Star Slots 2021. All Rights Reserved.</p>
+  </footer>
+
+
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
